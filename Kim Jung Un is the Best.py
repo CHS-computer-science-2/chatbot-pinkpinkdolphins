@@ -9,4 +9,5 @@ or as the filthy Imperialists call us, North Korea. We the only true legitimate 
   Our brand new Comreade chat bot 3000 we'll ask you questions to make sure your truley going to be a great north korean citizen"""
 from textblob import TextBlob
 >>>>>>> fa4432265ce9e0e0b02837093040da986bba49eb
-#Alec Is Here
+
+userInput = input(": ")
