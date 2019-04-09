@@ -11,7 +11,11 @@ questionKeywords = ["who","what","where","when","why","?"]
 #>>>>>>> fa4432265ce9e0e0b02837093040da986bba49eb
 
 userInput = input(":")
-checkPositiveNegative(userInput)
+def checkPositiveNegative(userInput):
+    positive_amount=0
+    for x in response:
+        if x in positiveKeywords:
+            positive_amount+=1
 
 def checkPostitiveNegative(sentence):
 
