@@ -5,8 +5,9 @@ print("\nWE are so glad that you have decided to become a part of our great coun
 print("\nOur brand new Comreade chat bot 3000 we'll ask you questions to make sure your truley going to be a great north korean citizen")
 from textblob import TextBlob
 
-negativeKeywords = ["America","Obama","Trump","President","Human Rights","Europe","Japan","Where's my mom?","Internet","South Korea", "Poverty","Seoul","Capitolism"]
-positiveKeywords = ["Dear Leader", "Kim", "Jong", "Un", "Il", "Sung","Russia", "North Korea", "Communism", "pyongyang"]
+negativeKeywords = ["america","obama","trump","president","human rights","europe","japan","where's my mom?","internet","south korea", "poverty","seoul","capitolism"]
+positiveKeywords = ["dear leader", "kim", "jong", "un", "il", "sung","russia", "north korea", "communism", "pyongyang"]
+questionKeywords = ["who","what","where","when","why","?"]
 #>>>>>>> fa4432265ce9e0e0b02837093040da986bba49eb
 
 input(":")
