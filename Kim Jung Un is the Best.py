@@ -15,4 +15,8 @@ checkPositiveNegative(userInput)
 
 def checkPostitiveNegative(sentence):
 
-def sentenceParts(sentence)
+def sentenceParts(sentence):
+    print("I hope this works")
+    tags = sentence.tags
+    print(tags)
+    
