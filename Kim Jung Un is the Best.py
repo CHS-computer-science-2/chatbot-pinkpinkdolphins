@@ -10,4 +10,9 @@ positiveKeywords = ["dear leader", "Great Leader", "kim", "jong", "un", "il", "s
 questionKeywords = ["who","what","where","when","why","?"]
 #>>>>>>> fa4432265ce9e0e0b02837093040da986bba49eb
 
-input(":")
+userInput = input(":")
+checkPositiveNegative(userInput)
+
+def checkPostitiveNegative(sentence):
+
+def sentenceParts(sentence)
