@@ -5,9 +5,15 @@ print("\nWE are so glad that you have decided to become a part of our great coun
 print("\nOur brand new Comreade chat bot 3000 we'll ask you questions to make sure your truley going to be a great north korean citizen")
 from textblob import TextBlob
 
-negativeKeywords = ["america","obama","trump","president","human rights","europe","japan","where's my mom?","internet","south korea", "poverty","seoul","capitolism"]
-positiveKeywords = ["dear leader", "kim", "jong", "un", "il", "sung","russia", "north korea", "communism", "pyongyang"]
+negativeKeywords = ["america","obama","trump","president","human rights","europe","japan","where's my mom?","internet","south korea", "poverty","seoul","capitalism"]
+positiveKeywords = ["dear leader", "Great Leader", "kim", "jong", "un", "il", "sung","russia", "north korea", "communism", "pyongyang"]
 questionKeywords = ["who","what","where","when","why","?"]
 #>>>>>>> fa4432265ce9e0e0b02837093040da986bba49eb
 
 input(":")
+response_value=0
+while response_value==0:
+    response=str(input (" Ask any question you please or simply state something.")
+    if response is True:
+        response_value==1
+noun_phrase=response.noun_phrases
