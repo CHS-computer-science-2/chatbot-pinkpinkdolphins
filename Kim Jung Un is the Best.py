@@ -12,13 +12,21 @@ positiveKeywords = ["dear leader", "Great Leader", "kim", "jong", "un", "il", "s
 questionKeywords = ["who","what","where","when","why","?"]
 
 greetings = ["hello Comrade","hello","greetings"]
+comradeGreetings = ["Greetings Peasant!", "Greetings!", "WHAT DO YOU WANT????!!!!", "Go away", "*big sigh* hi"]
 
 #Functions
 #>>>>>>> fa4432265ce9e0e0b02837093040da986bba49eb
 
+def greeting(sentence):
+    for words in sentence.split():
+        if words.lower() in greetings:
+            return(comradeGreetings[random.randint(0,5)
+        else:
+            return("TRY AGAIN!!")
 
-
+#
 
 #Main
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 userInput = input(":")
+responce = greeting(userInput)
