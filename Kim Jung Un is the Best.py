@@ -433,6 +433,7 @@ positiveKeywords = ["dear leader", "Great Leader", "kim", "jong", "un", "il", "s
 questionKeywords = ["who","what","where","when","why","?"]
 greetings=["Hello","안녕하세요","안녕","안녕하세요!","만나서 반갑습니다","What a fine day we are having","Praise our Glorious leader from whom all good in the world stems","Comrade Welcome","Are You a Filthy Capatalist Pig?? We\'ll find out",""]
 print (greetings[greeting_choice])
+#The purpose of the following code is to allow us to compile sentences from the user to get there overall positive or negative value
 userInput = input(":")
 input_list=[]
 while userInput!="":
