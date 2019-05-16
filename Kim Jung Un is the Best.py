@@ -481,3 +481,4 @@ elif negativity> positivity:
 else:
     number=random.randint(0,3)
     print (confused_responses[number])
+input("\nPress enter to exit")
